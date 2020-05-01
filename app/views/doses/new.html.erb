@@ -1,3 +1,4 @@
+<div class="container">
 <h1>Add ingredient and details for <%= @cocktail.name %></h1>
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.association :ingredient %>
@@ -7,3 +8,4 @@
 <hr>
 <p><%= link_to "Back to #{@cocktail.name}", cocktail_path(@cocktail) %></p>
 <p><%= link_to 'Back to List', cocktails_path %></p>
+</div>
