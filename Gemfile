@@ -11,6 +11,9 @@ gem 'simple_form'
 # dotenv
 gem 'dotenv-rails', groups: [:development, :test]
 
+# cloudinary
+gem 'cloudinary', '~> 1.12.0'
+
 # Seeds
 gem 'faker'
 
